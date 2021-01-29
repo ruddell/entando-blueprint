@@ -1,0 +1,18 @@
+application {
+  config {
+    applicationType microservice
+    serverPort 8081
+    authenticationType oauth2
+    baseName jhipsterSampleApplication
+    buildTool maven
+    databaseType sql
+    packageName io.github.jhipster.sample
+    prodDatabaseType mysql
+    enableHibernateCache true
+    cacheProvider caffeine
+    bundleName test-bundle
+    dockerOrganization test
+    generateMicroFrontends always
+  }
+
+}
